@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-MY">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#08090d" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="description" content="A private pet-memory digital surprise preview." />
+  <title>Pet Edition · Digital Surprise Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;500&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="ambient-canvas" aria-hidden="true"></canvas>
+  <div class="page-glow glow-one"></div><div class="page-glow glow-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top"><span class="brand-mark">M</span><span id="brand-name">Ming AI Automations</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#experiences" data-copy="navExperiences">体验款式</a>
+      <a href="#partner-flow" data-copy="navFlow">合作流程</a>
+      <a href="#qr-card" data-copy="navQr">QR 花卡</a>
+    </nav>
+    <div class="language-switch" aria-label="Language selector"><button class="active" data-lang="zh" type="button">中文</button><span>·</span><button data-lang="en" type="button">EN</button></div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="private-demo"><span></span><span data-copy="privateDemo">花礼加购体验 · 专属预览</span></p>
+        <p class="eyebrow" data-copy="heroEyebrow">CELESTE FLORIST × DIGITAL SURPRISE</p>
+        <h1 data-copy="heroTitle">让一束花，打开一段专属惊喜。</h1>
+        <p class="hero-body" data-copy="heroBody">顾客送出的不只是一束花。扫描花卡上的 QR Code，收花人会进入一个由照片、音乐、留言与互动组成的私人惊喜网站。</p>
+        <div class="hero-actions"><a class="primary-action" href="#experiences"><span data-copy="explore">选择体验款式</span><span>↓</span></a><a class="text-action" href="#partner-flow" data-copy="viewFlow">查看合作流程</a></div>
+      </div>
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="phone-shell">
+          <div class="phone-top"></div>
+          <div class="phone-screen">
+            <span class="phone-kicker" data-copy="mockPrivate">仅为特别的人准备</span>
+            <div class="particle-heart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <p data-copy="mockScan">扫描花卡，打开惊喜</p>
+            <span class="phone-pill" data-copy="mockThree">三种专属体验</span>
+          </div>
+        </div>
+        <div class="floating-card flower-card"><span>Celeste</span><b>Florist</b><small>for someone special</small></div>
+        <div class="floating-card qr-mini"><span class="mini-grid"></span><small>SCAN TO OPEN</small></div>
+      </div>
+    </section>
+
+    <section class="experiences section-shell" id="experiences">
+      <div class="section-heading reveal"><p class="eyebrow" data-copy="sectionEyebrow">CHOOSE A PREVIEW</p><h2 data-copy="sectionTitle">Celeste 可以亲自体验三种惊喜。</h2><p data-copy="sectionBody">每一个示范都会打开完整的手机体验。无需输入密码，方便预览；正式客户版本仍可设置四位数密码。</p></div>
+      <div class="experience-grid">
+        <article class="experience-card love-card reveal"><div class="card-visual love-visual"><span class="heart-outline">♟</span><i></i><i></i><i></i></div><div class="card-number">01</div><h3 data-copy="loveTitle">欢迎回家</h3><p data-copy="loveBody">从第一天、第一张照片到每一个陪伴在身边的日子。</p><button type="button" data-preview="love"><span data-copy="preview">开始体验</span><span>↗</span></button></article>
+        <article class="experience-card birthday-card reveal"><div class="card-visual cake-visual"><span class="candle"><i></i></span><span class="cake-top"></span><span class="cake-base"></span></div><div class="card-number">02</div><h3 data-copy="birthdayTitle">毛孩生日</h3><p data-copy="birthdayBody">一个生日愿望、照片回忆和来自最爱的人的声音。</p><button type="button" data-preview="birthday"><span data-copy="preview">开始体验</span><span>↗</span></button></article>
+        <article class="experience-card date-card reveal"><div class="card-visual ticket-visual"><span class="ticket-stub">FOREVER</span><b>IN OUR HEARTS</b><i></i></div><div class="card-number">03</div><h3 data-copy="dateTitle">温柔纪念</h3><p data-copy="dateBody">一封写给毛孩的信，把它留下的每一个温暖瞬间好好收藏。</p><button type="button" data-preview="date"><span data-copy="preview">开始体验</span><span>↗</span></button></article>
+      </div>
+      <p class="preview-note" data-copy="previewNote">建议使用手机打开并开启声音</p>
+    </section>
+
+    <section class="partner-flow section-shell" id="partner-flow">
+      <div class="section-heading reveal"><p class="eyebrow" data-copy="flowEyebrow">SIMPLE PARTNER FLOW</p><h2 data-copy="flowTitle">Celeste 继续掌握客户关系，我们负责制作。</h2><p data-copy="flowBody">顾客仍然向 Celeste 下单和付款。Celeste 只需要把资料转发给 Ming AI Automations。</p></div>
+      <div class="flow-line">
+        <article class="flow-step reveal"><span>01</span><div><h3 data-copy="step1Title">顾客选择加购</h3><p data-copy="step1Body">Celeste 在花礼订单中询问顾客，是否要加购 Premium QR 祝福体验。</p></div></article>
+        <article class="flow-step reveal"><span>02</span><div><h3 data-copy="step2Title">WhatsApp 收集资料</h3><p data-copy="step2Body">顾客把名字、照片、文字、音乐或语音交给 Celeste，再由 Celeste 转发给我们。</p></div></article>
+        <article class="flow-step reveal"><span>03</span><div><h3 data-copy="step3Title">收到 QR 花卡</h3><p data-copy="step3Body">我们完成网页并交付 QR。Celeste 可打印在手写卡上，或直接把电子花卡发给顾客。</p></div></article>
+      </div>
+    </section>
+
+    <section class="qr-section section-shell" id="qr-card">
+      <div class="qr-copy reveal"><p class="eyebrow" data-copy="qrEyebrow">FROM FLOWERS TO A MOMENT</p><h2 data-copy="qrTitle">一张小小的 QR 花卡，把实体礼物延伸成完整体验。</h2><p data-copy="qrBody">QR Code 可以印在 Celeste 原本的手写卡上，不改变现有送花流程。若暂时没有打印设备，也可以发送电子版本。</p><ul><li data-copy="feature1">中英马三语</li><li data-copy="feature2">手机优先设计</li><li data-copy="feature3">照片、音乐与语音</li><li data-copy="feature4">密码与私人链接</li><li data-copy="feature5">可打印 QR 花卡</li></ul></div>
+      <div class="qr-card-preview reveal"><p data-copy="qrCardLabel">一份只属于你的礼物</p><h3 data-copy="qrCardTitle">我为你准备了一份小惊喜。</h3><div class="sample-qr"><span></span></div><small data-copy="qrCardScan">扫描后再慢慢打开</small><em>— Paws &amp; Co.</em><a class="qr-demo-link" href="experience/qr.html" data-copy="viewQr">查看可打印 QR 花卡 →</a></div>
+    </section>
+
+    <section class="closing section-shell reveal"><p class="eyebrow" data-copy="closingEyebrow">FOR CELESTE FLORIST</p><h2 data-copy="closingTitle">把祝福，从卡片上的一句话，变成一段会被记住的体验。</h2><p data-copy="closingBody">这不是取代 Celeste 的手写卡，而是为愿意加购的顾客提供一个更有情绪价值的选择。</p><div class="closing-actions"><a class="primary-action" href="#experiences"><span data-copy="reopen">再次选择体验</span><span>↑</span></a><a class="text-action" id="instagram-link" href="#" target="_blank" rel="noopener" data-copy="instagram">查看 Celeste Florist</a></div></section>
+  </main>
+
+  <dialog class="personalize-dialog" id="personalize-dialog">
+    <form class="personalize-panel" id="personalize-form">
+      <button class="dialog-close" id="personalize-close" type="button" aria-label="Close">×</button>
+      <p class="eyebrow" data-copy="diyEyebrow">MAKE IT YOURS</p>
+      <h2 data-copy="diyTitle">先把这个示范变成属于你的惊喜。</h2>
+      <p class="dialog-intro" data-copy="diyBody">资料只用于这次浏览器预览，不会上传给我们。</p>
+      <input id="selected-journey" type="hidden" />
+      <div class="form-grid">
+        <label><span data-copy="recipientLabel">收礼人的名字</span><input id="demo-recipient" type="text" maxlength="28" required data-placeholder="recipientPlaceholder" placeholder="例如：Celeste" /></label>
+        <label><span data-copy="senderLabel">你的名字</span><input id="demo-sender" type="text" maxlength="28" required data-placeholder="senderPlaceholder" placeholder="例如：Ming" /></label>
+      </div>
+      <label><span data-copy="languageLabel">惊喜显示语言</span><select id="demo-language"><option value="zh">中文</option><option value="en">English</option><option value="bm">Bahasa Melayu</option></select></label>
+      <label><span data-copy="endingLabel">最后亲手写出的那句话（可选）</span><textarea id="demo-ending" rows="2" maxlength="100" data-placeholder="endingPlaceholder" placeholder="例如：我爱你，一直都是。"></textarea></label>
+      <section class="writing-assistant" aria-labelledby="writing-assistant-title">
+        <div class="assistant-heading"><div><p class="eyebrow">V2.5 · STORY ASSIST</p><h3 id="writing-assistant-title" data-copy="aiTitle">不知道要写什么？让我帮你开始。</h3></div><span class="assistant-badge" data-copy="aiBadge">私密草稿</span></div>
+        <p data-copy="aiBody">写下几个关键词，选择语气，即可获得三段可编辑的灵感。内容只在这次浏览器预览中使用。</p>
+        <div class="form-grid">
+          <label><span data-copy="aiToneLabel">想要的感觉</span><select id="demo-tone"><option value="warm" data-copy="aiToneWarm">温柔真诚</option><option value="playful" data-copy="aiTonePlayful">轻松甜蜜</option><option value="poetic" data-copy="aiTonePoetic">浪漫诗意</option></select></label>
+          <label><span data-copy="aiOccasionLabel">这份惊喜是为了</span><input id="demo-occasion" type="text" maxlength="40" data-placeholder="aiOccasionPlaceholder" placeholder="例如：我们的两周年"></label>
+        </div>
+        <label><span data-copy="aiMemoryLabel">告诉我一点你们的故事</span><textarea id="demo-memory" rows="3" maxlength="280" data-placeholder="aiMemoryPlaceholder" placeholder="例如：第一次一起看电影、她总会记得我爱喝的咖啡。"></textarea></label>
+        <button class="assist-button" id="assist-writing" type="button"><span>✦</span><span data-copy="aiButton">生成三段写作灵感</span></button>
+        <div class="writing-suggestions" id="writing-suggestions" hidden aria-live="polite"></div>
+      </section>
+      <div class="voice-recorder">
+        <div><span data-copy="voiceLabel">录一段私人语音（可选）</span><small data-copy="voicePrivacy">允许麦克风后即可录音。录音只保存在这个设备，不会上传。</small></div>
+        <div class="recorder-controls">
+          <button class="record-button" id="record-button" type="button"><span class="record-dot"></span><span id="record-label" data-copy="recordStart">开始录音</span></button>
+          <span class="record-time" id="record-time">0:00</span>
+          <button class="clear-recording" id="clear-recording" type="button" data-copy="recordClear" hidden>删除</button>
+        </div>
+        <audio id="recording-preview" controls hidden></audio>
+        <p class="record-status" id="record-status" role="status" aria-live="polite"></p>
+      </div>
+      <div class="dialog-actions">
+        <button class="skip-button" id="skip-personalization" type="button" data-copy="diySkip">直接查看示范</button>
+        <button class="launch-button" type="submit"><span data-copy="diyLaunch">打开我的专属预览</span><span>→</span></button>
+      </div>
+    </form>
+  </dialog>
+
+  <footer><span id="footer-brand">Ming AI Automations</span><span>×</span><span id="footer-partner">Paws &amp; Co.</span></footer>
+  <script src="demo-config.js"></script><script src="script.js" defer></script>
+</body>
+</html>
